@@ -1,23 +1,19 @@
-#include <stdlib.h>
-#include <time.h>
-#include <unistd.h>
-#include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success/correct)
- *
- */
+ * main -entry block
+ * @void: no argument
+ * Return: 0
+ **/
 int main(void)
 {
-	char c[] = "_putchar";
-	int i;
+char yosef[] = "_putchar";
 
-	for (i = 0; i < 8; i++)
-	{
-		_putchar(c[i]);
-	}
-	_putchar('\n');
-	return (0);
+int y;
+
+for (y = 0; y < 8; y++)
+{
+_putchar(yosef[y]);
+}
+_putchar('\n');
+return (0);
 }
