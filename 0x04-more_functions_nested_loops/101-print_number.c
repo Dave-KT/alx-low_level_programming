@@ -3,7 +3,7 @@
  * Auth: Yosef Nega Benti
  */
 
-#include main.h
+#include "main.h"
 
 /**
  * print_number - Prints an integer.
@@ -24,4 +24,3 @@ void print_number(int n)
 
 	_putchar((num % 10) + '0');
 }
-
